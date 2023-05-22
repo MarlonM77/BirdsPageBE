@@ -1,6 +1,5 @@
 
 *.v2
-*.json
 BirdsBackend/BirdsBE.Repository/obj/Debug/net5.0/BirdsBE.Repository.GeneratedMSBuildEditorConfig.editorconfig
 BirdsBackend/BirdsBE.Repository/obj/Debug/net5.0/BirdsBE.Repository.csproj.AssemblyReference.cache
 BirdsBackend/BirdsBE.Repository/obj/Debug/net5.0/BirdsBE.Repository.AssemblyInfoInputs.cache
@@ -10,7 +9,7 @@ BirdsBackend/BirdsBE.Repository/obj/Debug/net5.0/BirdsBE.Repository.AssemblyInfo
 *.targets
 BirdsBackend/.vs/BirdsBackend/v17/.suo
 BirdsBackend/.vs/BirdsBackend/v17/.futdcache.v1
-BirdsBackend/BirdsBackend.sln
+
 BirdsBackend/BirdsBE.Models/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
 BirdsBackend/BirdsBE.Models/obj/Debug/net5.0/BirdsBE.Models.AssemblyInfo.cs
 BirdsBackend/BirdsBE.Repository/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
