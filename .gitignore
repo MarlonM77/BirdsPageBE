@@ -14,3 +14,8 @@ BirdsBackend/BirdsBE.Models/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAt
 BirdsBackend/BirdsBE.Models/obj/Debug/net5.0/BirdsBE.Models.AssemblyInfo.cs
 BirdsBackend/BirdsBE.Repository/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
 BirdsBackend/BirdsBE.Repository/obj/Debug/net5.0/BirdsBE.Repository.AssemblyInfo.cs
+BirdsBackend/BirdsBE.UnitOfWork/obj/Debug/net5.0/BirdsBE.UnitOfWork.AssemblyInfo.cs
+BirdsBackend/BirdsBE.UnitOfWork/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+BirdsBackend/BirdsBE.UnitOfWork/obj/BirdsBE.UnitOfWork.csproj.nuget.dgspec.json
+BirdsBackend/BirdsBE.Repository/obj/BirdsBE.Repository.csproj.nuget.dgspec.json
+BirdsBackend/BirdsBE.Repository/obj/BirdsBE.Repository.csproj.nuget.dgspec.json

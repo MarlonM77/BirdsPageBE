@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdsBackend", "BirdsBackend\BirdsBackend.csproj", "{7A59E082-F69F-4A16-BFD3-D0FFF3C5B010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirdsBackend", "BirdsBackend\BirdsBackend.csproj", "{7A59E082-F69F-4A16-BFD3-D0FFF3C5B010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdsBE.Models", "BirdsBE.Models\BirdsBE.Models.csproj", "{ABA0BFB6-8870-426E-960D-65EA1A45AAA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirdsBE.Models", "BirdsBE.Models\BirdsBE.Models.csproj", "{ABA0BFB6-8870-426E-960D-65EA1A45AAA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdsBE.Repository", "BirdsBE.Repository\BirdsBE.Repository.csproj", "{540502E6-030E-44C4-AC79-CFB2F433DB40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirdsBE.Repository", "BirdsBE.Repository\BirdsBE.Repository.csproj", "{540502E6-030E-44C4-AC79-CFB2F433DB40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdsBE.UnitOfWork", "BirdsBE.UnitOfWork\BirdsBE.UnitOfWork.csproj", "{0D42C9E9-0026-4D4A-81BF-A7E208DEAE9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{540502E6-030E-44C4-AC79-CFB2F433DB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{540502E6-030E-44C4-AC79-CFB2F433DB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{540502E6-030E-44C4-AC79-CFB2F433DB40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D42C9E9-0026-4D4A-81BF-A7E208DEAE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D42C9E9-0026-4D4A-81BF-A7E208DEAE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D42C9E9-0026-4D4A-81BF-A7E208DEAE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D42C9E9-0026-4D4A-81BF-A7E208DEAE9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
