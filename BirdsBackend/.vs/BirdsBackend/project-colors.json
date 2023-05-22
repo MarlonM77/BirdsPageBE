@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7a59e082-f69f-4a16-bfd3-d0fff3c5b010": {
+      "ProjectGuid": "7a59e082-f69f-4a16-bfd3-d0fff3c5b010",
+      "DisplayName": "BirdsBackend",
+      "ColorIndex": 0
+    },
+    "aba0bfb6-8870-426e-960d-65ea1a45aaa4": {
+      "ProjectGuid": "aba0bfb6-8870-426e-960d-65ea1a45aaa4",
+      "DisplayName": "BirdsBE.Models",
+      "ColorIndex": 1
+    },
+    "540502e6-030e-44c4-ac79-cfb2f433db40": {
+      "ProjectGuid": "540502e6-030e-44c4-ac79-cfb2f433db40",
+      "DisplayName": "BirdsBE.Repository",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
