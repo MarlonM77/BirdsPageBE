@@ -15,7 +15,12 @@
       "ProjectGuid": "540502e6-030e-44c4-ac79-cfb2f433db40",
       "DisplayName": "BirdsBE.Repository",
       "ColorIndex": 2
+    },
+    "0d42c9e9-0026-4d4a-81bf-a7e208deae9a": {
+      "ProjectGuid": "0d42c9e9-0026-4d4a-81bf-a7e208deae9a",
+      "DisplayName": "BirdsBE.UnitOfWork",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

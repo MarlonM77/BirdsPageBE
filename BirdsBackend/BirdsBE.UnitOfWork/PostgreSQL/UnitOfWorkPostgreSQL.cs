@@ -22,7 +22,7 @@ namespace BirdsBE.UnitOfWork.PostgreSQL
             _transaction = _connection.BeginTransaction();
 
             User = new UserRepository(_transaction);
-            //Account = new AccountRepository(_transaction);
+            Account = new AccountRepository(_transaction);
             //Bird = new BirdRepository(_transaction);
         }
         public IUserRepository User { get; }

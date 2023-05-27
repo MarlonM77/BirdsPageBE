@@ -7,13 +7,15 @@ using System.Threading.Tasks;
 
 namespace BirdsBE.Repository.RepositoryInterface
 {
-    public interface IBirdRepository :IRepository<Birds>
+    public interface IBirdRepository : IRepository<Birds>
     {
+        Task<Birds> GetBird(string p);
         Task<IEnumerable<Birds>> GetBird();
-        Task<bool> DeleteBird(Birds User);
-        Task<bool> UpdateBird(Birds User);
-        Task<int> InsertBird(IEnumerable<Birds> User);
-        Task<IEnumerable<Birds>> GetListBirds();
+        Task<bool> DeleteBird(Birds Bird);
+        Task<bool> UpdateBird(Birds Bird);
+        Task<int> InsertBird(IEnumerable<Birds> Bird);
+        Task<int> InsertBird(Birds Bird);
+        Task<IEnumerable<Birds>> GetListBird();
         Task<Birds> GetByIdBird(string id);
         Task<int> InsertBird(string input_xml);
     }

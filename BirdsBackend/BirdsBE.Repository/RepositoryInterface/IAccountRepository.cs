@@ -9,12 +9,14 @@ namespace BirdsBE.Repository.RepositoryInterface
 {
     public interface IAccountRepository : IRepository<Account>
     {
+        Task<Account> GetAccount(string p);
         Task<IEnumerable<Account>> GetAccount();
-        Task<bool> DeleteAccount(Account User);
-        Task<bool> UpdateAccount(Account User);
-        Task<int> InsertAccount(IEnumerable<Account> User);
-        Task<IEnumerable<Account>> GetListAccounts();
-        Task<Birds> GetByIdAccount(string id);
+        Task<bool> DeleteAccount(Account account);
+        Task<bool> UpdateAccount(Account account);
+        Task<int> InsertAccount(IEnumerable<Account> account);
+        Task<int> InsertAccount(Account account);
+        Task<IEnumerable<Account>> GetListAccount();
+        Task<Account> GetByIdAccount(string id);
         Task<int> InsertAccount(string input_xml);
     }
 }
