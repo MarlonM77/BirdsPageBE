@@ -31,7 +31,7 @@ namespace BirdsBE.Repository.RepositoryImplements.PostgreSQL.Repository
             return await _connection?.GetAsync<T>(int.Parse(id), _transaction);
         }
 
-        public async Task<IEnumerable<TResult>> GetBySP<TResult>(string sqlQuery, CommandType commandType = CommandType.StoredProcedure, IDictionary<string, dynamic> parameters = null)
+        public async Task<TResult> GetBySP<TResult>(string sqlQuery, CommandType commandType = CommandType.StoredProcedure, IDictionary<string, dynamic> parameters = null)
         {
             DynamicParameters _parameters = new DynamicParameters();
             if (parameters is not null)
@@ -39,7 +39,7 @@ namespace BirdsBE.Repository.RepositoryImplements.PostgreSQL.Repository
                     _parameters.Add(item.Key, item.Value);
 
             var result = await _connection?.QueryAsync<TResult>(sqlQuery, _parameters, _transaction, commandType: commandType);
-            return result;
+            return (TResult)result;
         }
 
         public async Task<IEnumerable<T>> GetList()

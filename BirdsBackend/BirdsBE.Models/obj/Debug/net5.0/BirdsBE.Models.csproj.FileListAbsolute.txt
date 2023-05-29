@@ -1,0 +1,12 @@
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\bin\Debug\net5.0\BirdsBE.Models.deps.json
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\bin\Debug\net5.0\BirdsBE.Models.dll
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\bin\Debug\net5.0\ref\BirdsBE.Models.dll
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\bin\Debug\net5.0\BirdsBE.Models.pdb
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\obj\Debug\net5.0\BirdsBE.Models.csproj.AssemblyReference.cache
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\obj\Debug\net5.0\BirdsBE.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\obj\Debug\net5.0\BirdsBE.Models.AssemblyInfoInputs.cache
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\obj\Debug\net5.0\BirdsBE.Models.AssemblyInfo.cs
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\obj\Debug\net5.0\BirdsBE.Models.csproj.CoreCompileInputs.cache
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\obj\Debug\net5.0\BirdsBE.Models.dll
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\obj\Debug\net5.0\ref\BirdsBE.Models.dll
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.Models\obj\Debug\net5.0\BirdsBE.Models.pdb

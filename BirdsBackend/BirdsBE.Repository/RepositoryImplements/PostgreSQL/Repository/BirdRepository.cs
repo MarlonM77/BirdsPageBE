@@ -35,17 +35,6 @@ namespace BirdsBE.Repository.RepositoryImplements.PostgreSQL.Repository
             return result;
         }
 
-        public async Task<IEnumerable<Birds>> GetBird() 
-        { 
-            //Parametros del procedimiento
-            var ProcedimietoAlmacenado = "sp";
-            Dictionary<string, dynamic> parameters =
-                new PostgreSQLParameters().SetValues(/*Parametros SP*/);
-
-            //Implementacion del procedimiento almacenado
-            var result = await GetBySP<Birds>(ProcedimietoAlmacenado, CommandType.StoredProcedure, parameters);
-            return result;
-        }
 
         public async Task<bool> DeleteBird(Birds Bird)
         {

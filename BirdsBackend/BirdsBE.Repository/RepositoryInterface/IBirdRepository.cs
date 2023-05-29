@@ -10,7 +10,6 @@ namespace BirdsBE.Repository.RepositoryInterface
     public interface IBirdRepository : IRepository<Birds>
     {
         Task<Birds> GetBird(string p);
-        Task<IEnumerable<Birds>> GetBird();
         Task<bool> DeleteBird(Birds Bird);
         Task<bool> UpdateBird(Birds Bird);
         Task<int> InsertBird(IEnumerable<Birds> Bird);

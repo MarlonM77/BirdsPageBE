@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BirdsBE.Core;
+using BirdsBE.Models;
+using BirdsBE.Models.InputModel;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -11,25 +14,22 @@ namespace BirdsBackend.Controllers
     [Route("[controller]")]
     public class BirdsBE : ControllerBase
     {
-
-        private readonly ILogger<BirdsBE> _logger;
-
-        public BirdsBE(ILogger<BirdsBE> logger)
+        private readonly IProcessCore processCore;
+        public BirdsBE(IProcessCore processCore)
         {
-            _logger = logger;
+            this.processCore = processCore;
         }
 
-        //[HttpGet]
-        //public IEnumerable<WeatherForecast> Get()
-        //{
-        //    var rng = new Random();
-        //    return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        //    {
-        //        Date = DateTime.Now.AddDays(index),
-        //        TemperatureC = rng.Next(-20, 55),
-        //        Summary = Summaries[rng.Next(Summaries.Length)]
-        //    })
-        //    .ToArray();
-        //}
+        [HttpPost]
+        public async Task<OutPutModel> Post(Users user)
+        {
+            return await processCore.CreateUser(user);
+        }
+
+        [HttpPut]
+        public async Task<OutPutModel> Put(Users user)
+        {
+            return await processCore.UpdateUser(user);
+        }
     }
 }

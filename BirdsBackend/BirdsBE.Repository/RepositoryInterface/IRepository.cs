@@ -13,6 +13,6 @@ namespace BirdsBE.Repository
         Task<int> Insert(T entity);
         Task<IEnumerable<T>> GetList();
         Task<T> GetById(string id);
-        Task<IEnumerable<TResult>> GetBySP<TResult>(string sqlQuery, System.Data.CommandType commandType = System.Data.CommandType.StoredProcedure, IDictionary<string, dynamic> parameters = null);
+        Task<TResult> GetBySP<TResult>(string sqlQuery, System.Data.CommandType commandType = System.Data.CommandType.StoredProcedure, IDictionary<string, dynamic> parameters = null);
     }
 }

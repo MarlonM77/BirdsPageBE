@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirdsBE.Models", "BirdsBE.M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirdsBE.Repository", "BirdsBE.Repository\BirdsBE.Repository.csproj", "{540502E6-030E-44C4-AC79-CFB2F433DB40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdsBE.UnitOfWork", "BirdsBE.UnitOfWork\BirdsBE.UnitOfWork.csproj", "{0D42C9E9-0026-4D4A-81BF-A7E208DEAE9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirdsBE.UnitOfWork", "BirdsBE.UnitOfWork\BirdsBE.UnitOfWork.csproj", "{0D42C9E9-0026-4D4A-81BF-A7E208DEAE9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdsBE.Core", "BirdsBE.Core\BirdsBE.Core.csproj", "{989767E5-D813-4C6B-AFA7-B507A630AA22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0D42C9E9-0026-4D4A-81BF-A7E208DEAE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D42C9E9-0026-4D4A-81BF-A7E208DEAE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D42C9E9-0026-4D4A-81BF-A7E208DEAE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989767E5-D813-4C6B-AFA7-B507A630AA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989767E5-D813-4C6B-AFA7-B507A630AA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989767E5-D813-4C6B-AFA7-B507A630AA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989767E5-D813-4C6B-AFA7-B507A630AA22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

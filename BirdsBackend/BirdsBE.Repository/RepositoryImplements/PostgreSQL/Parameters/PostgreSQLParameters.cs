@@ -14,15 +14,18 @@ namespace BirdsBE.Repository.RepositoryImplements.PostgreSQL.Parameters
             return parameters;
         }
 
-        public Dictionary<string, dynamic> SetValuesActualizar()
+        public Dictionary<string, dynamic> SetValuesActualizar(string user_id)
         {
             Dictionary<string, dynamic> parameters = new Dictionary<string, dynamic>();
+            parameters.Add("userid", user_id);
             return parameters;
         }
 
-        public Dictionary<string, dynamic> SetValuesDelete()
+        public Dictionary<string, dynamic> SetValuesDelete(string user_id, string account_id)
         {
             Dictionary<string, dynamic> parameters = new Dictionary<string, dynamic>();
+            parameters.Add("userid", user_id);
+            parameters.Add("accountid", account_id);
             return parameters;
         }
 

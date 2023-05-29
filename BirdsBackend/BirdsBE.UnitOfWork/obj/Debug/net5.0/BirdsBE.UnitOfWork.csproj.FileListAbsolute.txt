@@ -1,0 +1,17 @@
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\bin\Debug\net5.0\BirdsBE.UnitOfWork.deps.json
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\bin\Debug\net5.0\BirdsBE.UnitOfWork.dll
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\bin\Debug\net5.0\ref\BirdsBE.UnitOfWork.dll
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\bin\Debug\net5.0\BirdsBE.UnitOfWork.pdb
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\bin\Debug\net5.0\BirdsBE.Models.dll
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\bin\Debug\net5.0\BirdsBE.Repository.dll
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\bin\Debug\net5.0\BirdsBE.Repository.pdb
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\bin\Debug\net5.0\BirdsBE.Models.pdb
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\obj\Debug\net5.0\BirdsBE.UnitOfWork.csproj.AssemblyReference.cache
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\obj\Debug\net5.0\BirdsBE.UnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\obj\Debug\net5.0\BirdsBE.UnitOfWork.AssemblyInfoInputs.cache
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\obj\Debug\net5.0\BirdsBE.UnitOfWork.AssemblyInfo.cs
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\obj\Debug\net5.0\BirdsBE.UnitOfWork.csproj.CoreCompileInputs.cache
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\obj\Debug\net5.0\BirdsBE.UnitOfWork.csproj.CopyComplete
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\obj\Debug\net5.0\BirdsBE.UnitOfWork.dll
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\obj\Debug\net5.0\ref\BirdsBE.UnitOfWork.dll
+C:\Users\ingmarlonm\source\repos\BirdsPageBENEW\BirdsBackend\BirdsBE.UnitOfWork\obj\Debug\net5.0\BirdsBE.UnitOfWork.pdb

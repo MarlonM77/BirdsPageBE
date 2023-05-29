@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BirdsBE.Models\BirdsBE.Models.csproj" />
+    <ProjectReference Include="..\BirdsBE.UnitOfWork\BirdsBE.UnitOfWork.csproj" />
+  </ItemGroup>
+
+</Project>
